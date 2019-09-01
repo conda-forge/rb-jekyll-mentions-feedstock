@@ -1,5 +1,5 @@
 {% set name = "jekyll-mentions" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 0ef3689f762629312b4a9b4d6848089fc54129cd84565fbe30358aa032cde141
+  sha256: fb98cb0e7a5c035c831ab6ddd972e0e110c567f277ddab654144a354f8b201e5
 
 build:
   noarch: generic
