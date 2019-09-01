@@ -23,7 +23,7 @@ requirements:
   run:
     - ruby
     - rb-html-pipeline >=2.3,<3
-    - rb-jekyll >=3.0,<4
+    - rb-jekyll >=3.7,<5
 
 test:
   commands:
